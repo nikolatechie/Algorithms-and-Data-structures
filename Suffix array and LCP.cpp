@@ -30,7 +30,7 @@ int sa[MAXN], rnk[MAXN], tmp[MAXN], lcp[MAXN];
 
 bool cmp(int i, int j)
 {
-    // sorting by rank
+    // sorting by rank 
     if (rnk[i] != rnk[j]) return (rnk[i] < rnk[j]);
     i += len, j += len;
     return (i < n && j < n) ? (rnk[i] < rnk[j]): (i > j);
