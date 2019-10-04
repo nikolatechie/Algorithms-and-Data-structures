@@ -75,7 +75,7 @@ void Build(Node *&x, int *from, int *to)
     if (R->mn == INT_MAX) x->c[1] = np, delete R;
 }
 
-int Frequency(Node *x, int L, int R, int &v) // return frequency of number 'v' in range [L,R]
+int Frequency(Node *x, int L, int R, int &v) // returns frequency of number 'v' in range [L,R]
 {
     while (x != np)
     {
