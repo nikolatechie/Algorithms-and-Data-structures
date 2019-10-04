@@ -20,8 +20,6 @@ using vii = vi::iterator;
 #define all(c) c.begin(),c.end()
 #define ms(name,val) memset(name, val, sizeof name)
 #define np nullptr
-// inline funkcije
-
 
 
 const int N = 1025, M = N;
